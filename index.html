@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Preference</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ED9455; 
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .banner.turn-ons {
+    background-color: #FFBB70; 
+    border: 2px solid #FFEC9E;
+  }
+  
+  .banner.turn-offs {
+    background-color: #FFBB70; 
+    border: 2px solid #FFEC9E;
+  }
+
+  .list {
+    list-style-type: disc; 
+    padding: 0;
+    text-align: left;
+  }
+
+  .list-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif; 
+    color: #322C2B;
+  }
+  
+  h2 {
+    font-family: 'Times New Roman', serif; 
+    color: #322C2B;
+  }
+
+  /* Changes */
+  .list-item.bold {
+    font-weight: bold;
+  }
+  .list-item.italic {
+    font-style: italic;
+  }
+  .list-item .white {
+    color: #ffffff; /* white */
+  }
+  .list-item .Dark-yellow [Olive-tone] {
+    color: #898121 ; /*  Dark yellow [Olive tone] */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="banner turn-ons">
+    <h2>My Biggest Turn On's</h2>
+    <ul class="list">
+      <li class="list-item bold">Knowlegeable and  <span class="italic">Skilled in their chosen field.</span></li>
+      <li class="list-item">TRUSTWORTHY & RELIABLE</li>
+      <li class="list-item"><span class="white">appreciates similar values & enjoys planning things out together.</span></li>
+      <li class="list-item">clear <span class=" Dark-yellow">COMMUNICATION</span></li>
+      <li class="list-item bold">HARDworking<span class="italic"> & DediCated</span></li>
+    </ul>
+  </div>
+
+  <div class="banner turn-offs">
+    <h2>My Biggest Turn Off</h2>
+    <ul class="list">
+      <li class="list-item italic">Frequently<span class="bold"> Cancel Plans</span></li>
+      <li class="list-item bold">DISHONESTY<span class="italic"> OR DECEITFUL</span></li>
+      <li class="list-item">Disorganized<span class="white"> or </span> Chaotic</li>
+      <li class="list-item bold"> Overly<span class="italic"> emotional or Dramatic</span></li>
+      <li class="list-item bold italic">Rebellious <span class="italic"> & </span> Disrespectful <span class="italic"></span></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
